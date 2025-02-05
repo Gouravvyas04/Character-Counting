@@ -1,23 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Modern and readable font */
 }
 
-body{
-    background-color: rgb(214, 209, 209);
+body {
+    background-color: #f0f8ff; /* Light and bright background (Alice Blue) */
+    color: #333; /* Dark text for better readability */
 }
 
-.character{
+.character {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top:20px;
+    margin-top: 30px;
+    padding: 20px;
 }
 
-.content{
-    font-size: 18px;
-    font-weight: 400;
+.content {
+    font-size: 20px;
+    font-weight: 500;
     width: 60%;
+    background-color: #fff; /* Clean white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a sleek look */
+    line-height: 1.6;
+    text-align: center;
+}
+
+button {
+    background-color: #ff6b6b; /* Bright coral red button */
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #ff3b3b; /* Slightly darker red on hover */
 }
